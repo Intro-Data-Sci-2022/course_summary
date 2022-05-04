@@ -1,0 +1,101 @@
+---
+title: "Intro Data Science Course Summary"
+author: "Matthew Ross"
+date: "5/4/2022"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+# Purpose 
+
+This page is a standing resource to refer back to 
+for any additional guidance as you work on your
+own data science projects after our classes (Intro Dat Sci, Data Sci - Water). 
+I have tried to arrange
+the resources somewhat in "chronological" order, meaning
+in order of increasing complexity in your R journey. 
+
+If you think things are missing or you want to see more,
+please add an issue and I will add what resources I can. 
+
+
+# Intro Material
+
+These classes assumed some amount of R knowledge before you
+started, an assumption that turned out to be mostly wrong. However, there
+are plenty of Intro R materials out there! These include:
+
+
+## Truly Basic R Intro
+
+- [Stat 158](https://csu-r.github.io/Module1/) - Vectors, data frames, installing R, etc...
+
+- [RStudio Materials](https://education.rstudio.com/learn/beginner/) - A series of
+videos, books, and more to get you started in R
+
+- [RStudio Primers](https://education.rstudio.com/learn/beginner/) - Interactive
+online coding. Really excellent if you can make it through all of the primers. 
+
+
+## Tidyverse and more Intro
+
+- [R for Data Science](https://r4ds.had.co.nz/introduction.html) - Covers all of
+the basic intro material, from a tidyverse perspective. As discussed, this is 
+one way to find solutions in R, it happens to be my preferred way, but there are
+lots of Base R ways that work just fine! This is a big book, and should be thought
+of as a reference!
+
+- [Stat 159](https://csu-r.github.io/Module2/) - A CSU specific course for an
+intro to the tidyverse
+
+
+## Additional Core Introductory Material
+
+- [Happy Git With R](https://happygitwithr.com/) - Phenomenal resource for learning
+git, GitHub, and RStudio integration. As discussed, using Git/GitHub/R together
+is a really important way to keep workflows open and robust
+
+
+- [R Markdown](https://bookdown.org/yihui/rmarkdown/#preface) - The primary 
+book for learning more about R Markdown and all of its quirks
+
+- [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - Short
+clear documents that cover so much material from dplyr to shiny apps. Great
+for quick references
+
+
+# Geospatial R
+
+- [Geocomputation with R](https://geocompr.robinlovelace.net/intro.html) - Intro
+to all things geospatial analysis, visualisation, etc... in R. Heavy on geometric
+operations and basics
+
+- [Spatial Data Science](https://keen-swartz-3146c4.netlify.app/) - More deep
+investigation of spatial data science skills with a focus on the details of 
+geometric and statistical operations. Written by the package creators of core
+geospatial packages `sf`, `stars`, `terra` and more!
+
+
+
+# Statistics and Machine Learning in R
+
+- [Intro to probability/stats](https://bookdown.org/speegled/foundations-of-statistics/) - Great intro to basic stats concepts and ideas about probability with an R focus
+
+- [Hands on Machine Learning in R](https://bradleyboehmke.github.io/HOML/) - Fantastic
+hands on approach to machine learning in R
+
+- [Intro to Bayes](https://statswithr.github.io/book/) - Nothing we discussed in
+class but a key approach to understand
+
+
+# Miscellaneous 
+
+- [Web Scraping](https://steviep42.github.io/webscraping/book/) - Clear and exhaustive
+introduction to webscraping including `RSelenium`, `rvest`, and other core packages.
+
+
+- [Time Series](https://otexts.com/fpp3/) - Primarily focused on forecasting, but
+generally useful for time series approaches. 
